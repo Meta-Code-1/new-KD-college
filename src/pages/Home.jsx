@@ -122,12 +122,12 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             {/* Left Content */}
             <div data-aos="fade-up" className="space-y-8 order-2 lg:order-1">
-              <div className="inline-block px-4 py-1.5 bg-royal-navy/5 text-royal-navy font-bold text-sm rounded-full mb-2">
+              <div className="inline-block px-4 py-1.5 bg-royal-navy/5 text-blue-300 font-bold text-sm rounded-full mb-2">
                 About K.D. Medical College
               </div>
               <h1 className="text-4xl md:text-6xl font-serif font-bold text-royal-navy leading-[1.1]">
                 A Legacy of <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-royal-gold to-yellow-600">
+                <span className="text-blue-300 bg-clip-text text-blue-300">
                   Healing & Education
                 </span>
               </h1>
@@ -145,7 +145,7 @@ const Home = () => {
               <div className="grid grid-cols-2 gap-6 pt-4">
                 <div className="p-6 bg-white rounded-2xl border border-gray-100 shadow-xl shadow-gray-200/50 group hover:-translate-y-1 transition-all duration-300">
                   <div className="w-12 h-12 bg-royal-navy/5 rounded-xl flex items-center justify-center mb-4 group-hover:bg-royal-navy group-hover:text-white transition-colors">
-                    <UserGroupIcon className="w-6 h-6 text-royal-navy group-hover:text-white" />
+                    <UserGroupIcon className="w-6 h-6 text-blue-500" />
                   </div>
                   <h3 className="font-bold text-royal-navy text-2xl">1050+</h3>
                   <p className="text-sm text-gray-500 font-medium">
@@ -154,7 +154,7 @@ const Home = () => {
                 </div>
                 <div className="p-6 bg-white rounded-2xl border border-gray-100 shadow-xl shadow-gray-200/50 group hover:-translate-y-1 transition-all duration-300">
                   <div className="w-12 h-12 bg-royal-blue/5 rounded-xl flex items-center justify-center mb-4 group-hover:bg-royal-blue group-hover:text-white transition-colors">
-                    <HeartIcon className="w-6 h-6 text-royal-blue group-hover:text-white" />
+                    <HeartIcon className="w-6 h-6 text-blue-500" />
                   </div>
                   <h3 className="font-bold text-royal-navy text-2xl">24/7</h3>
                   <p className="text-sm text-gray-500 font-medium">
@@ -164,7 +164,7 @@ const Home = () => {
               </div>
 
               <Link to="/about" className="inline-block">
-                <button className="mt-4 px-8 py-4 bg-royal-navy text-white font-bold rounded-xl hover:bg-royal-gold hover:text-royal-navy transition-all duration-300 shadow-lg shadow-royal-navy/30">
+                <button className="cursor-pointer mt-4 px-8 py-4 bg-blue-300 text-black font-bold rounded-xl hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-lg shadow-blue-500/50">
                   Read Our Story
                 </button>
               </Link>
@@ -386,7 +386,7 @@ const Home = () => {
                 </p>
 
                 <Link to="/contact">
-                  <button className="mt-4 w-full py-2 rounded-lg border border-royal-navy text-royal-navy text-xs font-bold uppercase hover:bg-royal-navy hover:text-white transition-all duration-300">
+                  <button className="cursor-pointer mt-4 w-full py-2 rounded-lg border border-royal-navy text-royal-navy text-xs font-bold uppercase hover:bg-blue-200 hover:text-black transition-all duration-300">
                     Book Appointment
                   </button>
                 </Link>

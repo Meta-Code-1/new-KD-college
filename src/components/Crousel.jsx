@@ -24,13 +24,13 @@ const Crousel = () => {
         <div data-aos="fade-up" data-aos-delay="800" className="flex gap-4">
           <Link
             to="/apply"
-            className="px-8 py-3 bg-royal-gold text-royal-navy font-bold text-lg rounded-full hover:bg-white hover:text-royal-navy transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
+            className="px-8 py-3 bg-royal-gold text-black font-bold text-lg rounded-full bg-blue-300 hover:bg-white hover:text-royal-navy transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
           >
             Apply Now
           </Link>
           <Link
             to="/about"
-            className="px-8 py-3 border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-royal-navy transition-all duration-300 shadow-xl hover:shadow-2xl"
+            className="px-8 py-3 text-black font-bold text-lg rounded-full bg-white hover:bg-blue-300 hover:text-royal-navy transition-all duration-300 shadow-xl hover:shadow-2xl"
           >
             Discover More
           </Link>
