@@ -1,0 +1,19 @@
+.box {
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.about-page {
+    scroll-behavior: smooth;
+}
+
+#vision, #chairman, #principal {
+    scroll-margin-top: 80px;
+}
+
+.about-page h2, .about-page h3 {
+    color: #1a202c; 
+}
+.about-page p {
+    color: #4a5568; 
+}
