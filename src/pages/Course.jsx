@@ -199,13 +199,13 @@ const Course = () => {
                 className="bg-white rounded-[2rem] shadow-xl border border-gray-100 sticky top-28 overflow-hidden"
                 data-aos="fade-left"
               >
-                <div className="bg-royal-navy p-8 text-white relative overflow-hidden">
+                <div className="bg-royal-navy p-8 text-black relative overflow-hidden">
                   <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
                   <h2 className="text-xl font-bold flex items-center gap-3 relative z-10 font-serif">
-                    <ClipboardDocumentCheckIcon className="w-6 h-6 text-royal-gold" />
+                    <ClipboardDocumentCheckIcon className="w-6 h-6 text-black" />
                     Course Overview
                   </h2>
-                  <p className="text-gray-300 text-sm mt-2 relative z-10">
+                  <p className="text-black text-sm mt-2 relative z-10">
                     Under Graduation Programme
                   </p>
                 </div>
@@ -373,7 +373,7 @@ const Course = () => {
         {/* ==================== PG SECTION ==================== */}
         <div id="pg" className="scroll-mt-32 pt-16">
           <div
-            className="bg-gradient-to-br from-black to-royal-navy rounded-[3rem] p-8 md:p-16 text-white overflow-hidden relative shadow-2xl"
+            className="bg-[#80bca0] rounded-[3rem] p-8 md:p-16 text-white overflow-hidden relative shadow-2xl"
             data-aos="fade-up"
           >
             {/* Background Effects */}
@@ -381,7 +381,7 @@ const Course = () => {
             <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-royal-blue/10 rounded-full blur-[100px] -ml-20 -mb-20 pointer-events-none"></div>
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
 
-            <div className="relative z-10 grid lg:grid-cols-2 gap-16 items-center">
+            <div className=" relative z-10 grid lg:grid-cols-2 gap-16 items-center">
               <div className="space-y-8">
                 <div>
                   <span className="text-royal-gold font-bold tracking-[0.3em] uppercase text-xs mb-2 block">
@@ -392,7 +392,7 @@ const Course = () => {
                   </h2>
                 </div>
 
-                <p className="text-gray-400 text-lg leading-relaxed font-light border-l-2 border-royal-gold/30 pl-6">
+                <p className="text-black text-lg leading-relaxed font-light border-l-2 border-royal-gold/30 pl-6">
                   Elevate your medical career with our specialized postgraduate
                   programs. We offer advanced training in clinical and
                   non-clinical disciplines under the guidance of expert mentors.
@@ -418,20 +418,20 @@ const Course = () => {
                     key={idx}
                     className="bg-white/5 backdrop-blur-md p-8 rounded-3xl border border-white/10 hover:bg-white/10 hover:border-royal-gold/30 transition-all duration-300 group"
                   >
-                    <h3 className="text-2xl font-bold text-white mb-3 flex items-center gap-3 font-serif">
+                    <h3 className="text-2xl font-bold text-black mb-3 flex items-center gap-3 font-serif">
                       <span className="p-2 bg-royal-gold/20 rounded-lg text-royal-gold group-hover:bg-royal-gold group-hover:text-royal-navy transition-colors">
                         <BeakerIcon className="w-5 h-5" />
                       </span>
                       {item.title}
                     </h3>
-                    <p className="text-sm text-gray-400 mb-6 leading-relaxed ml-12">
+                    <p className="text-sm text-black mb-6 leading-relaxed ml-12">
                       {item.description}
                     </p>
                     <div className="flex flex-wrap gap-2 ml-12">
                       {item.specs.map((spec, sidx) => (
                         <span
                           key={sidx}
-                          className="text-xs bg-black/40 px-3 py-1.5 rounded-lg text-gray-300 border border-white/5"
+                          className="text-xs bg-black/40 px-3 py-1.5 rounded-lg text-black border border-white/5"
                         >
                           {spec}
                         </span>
