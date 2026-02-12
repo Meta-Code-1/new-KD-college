@@ -407,7 +407,7 @@ const AdmissionApply = () => {
                 <div className="pt-6">
                   <button
                     type="submit"
-                    className="w-full bg-[#6366f1] text-white font-bold text-lg py-5 rounded-xl hover:bg-[#6366f1]/80 hover:shadow-lg transform transition-all active:scale-[0.98] flex items-center justify-center gap-3 group"
+                    className="cursor-pointer w-full bg-[#6366f1] text-white font-bold text-lg py-5 rounded-xl hover:bg-[#6366f1]/80 hover:shadow-lg transform transition-all active:scale-[0.98] flex items-center justify-center gap-3 group"
                   >
                     {submitted ? (
                       <>
