@@ -27,17 +27,20 @@ const Preloader = ({ onFinish }) => {
       }`}
     >
       <div className="relative flex flex-col items-center">
-        {/* Pulsing Outer Ring */}
-        <div className="absolute w-32 h-32 rounded-full border-4 border-royal-gold/20 animate-ping"></div>
-        <div className="absolute w-32 h-32 rounded-full border-4 border-t-royal-gold border-r-transparent border-b-royal-gold border-l-transparent animate-spin z-10"></div>
+        {/* Animation Container */}
+        <div className="relative w-32 h-32 flex items-center justify-center mb-8">
+          {/* Pulsing Outer Ring */}
+          <div className="absolute w-full h-full rounded-full border-4 border-royal-gold/20 animate-ping"></div>
+          <div className="absolute w-full h-full rounded-full border-4 border-t-royal-gold border-r-transparent border-b-royal-gold border-l-transparent animate-spin z-10"></div>
 
-        {/* Logo */}
-        <div className="w-24 h-24 bg-white rounded-full shadow-lg flex items-center justify-center relative z-20 mb-8 animate-pulse">
-          <img
-            src={logo}
-            alt="KD College"
-            className="w-16 h-16 object-contain"
-          />
+          {/* Logo */}
+          <div className="relative z-20 w-24 h-24 bg-white rounded-full shadow-lg flex items-center justify-center animate-pulse">
+            <img
+              src={logo}
+              alt="KD College"
+              className="w-16 h-16 object-contain"
+            />
+          </div>
         </div>
 
         {/* Text Animation */}
